@@ -65,7 +65,7 @@ func Variables() {
 	const ac, bc, cc = 3, 4, "foo"
 	const (
 		size int64 = 1024
-		eof        = -1
+		eof  int   = -1
 	)
 	fmt.Println(ac, bc, cc, size, eof)
 

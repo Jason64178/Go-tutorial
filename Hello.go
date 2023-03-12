@@ -10,4 +10,6 @@ import (
 func main() { // main函数，程序执行入口
 	fmt.Println("Hello World!") // 在终端打印 Hello World!
 	variable.Variables()
+	variable.VariableTypes()
+	variable.ArraySlice()
 }
