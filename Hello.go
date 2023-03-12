@@ -15,4 +15,5 @@ func main() { // main函数，程序执行入口
 	variable.ArraySlice()
 	variable.MapStruct()
 	flow.Flow()
+	flow.Funcs()
 }
