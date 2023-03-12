@@ -36,7 +36,7 @@ func Variables() {
 	g, h := 5, "alwaysday1"
 	// 声明多个变量时，至少有一个新变量
 	var i int
-	// i != 100 // 报错，no new variables on left side of :=
+	// i := 100 // 报错，no new variables on left side of :=
 	i, j := 100, 101 //有新值，不报错
 	fmt.Println(f, g, h, i, j)
 
