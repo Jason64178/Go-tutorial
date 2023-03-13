@@ -16,4 +16,5 @@ func main() { // main函数，程序执行入口
 	variable.MapStruct()
 	flow.Flow()
 	flow.Funcs()
+	flow.Errors()
 }
