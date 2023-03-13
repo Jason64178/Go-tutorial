@@ -19,4 +19,5 @@ func main() { // main函数，程序执行入口
 	flow.Funcs()
 	flow.Errors()
 	types.MethodMain()
+	types.InterfaceMain()
 }
